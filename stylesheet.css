@@ -313,7 +313,7 @@ section {
         width: 0;
     }
     to {
-        width: 85%; /* Adjusted */
+        width: 80%; /* Adjusted */
     }
 }
 .Technical-bars .bar .progress-line.html2 span {
@@ -345,7 +345,7 @@ section {
         width: 0;
     }
     to {
-        width: 75%; /* Adjusted */
+        width: 50%; /* Adjusted */
     }
 }
 
@@ -362,10 +362,39 @@ section {
         width: 0;
     }
     to {
-        width: 60%; /* Adjusted */
+        width: 75%; /* Adjusted */
     }
 }
-
+.Technical-bars .bar .progress-line.html5 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate5 2s forwards; /* Adjusted */
+}
+@keyframes animate5 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 68%; /* Adjusted */
+    }
+}
+.Technical-bars .bar .progress-line.html6 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate6 2s forwards; /* Adjusted */
+}
+@keyframes animate6 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%; /* Adjusted */
+    }
+}
 
 
 
