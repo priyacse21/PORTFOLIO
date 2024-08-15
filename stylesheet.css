@@ -266,7 +266,7 @@ section {
 .container1 {
     width: 600px;
     height: 500px;
-    padding: 75px 90px;
+    padding: 7px 9px;
     margin: 0 20px; /* Add margin between containers */
 }
 
@@ -328,7 +328,7 @@ section {
         width: 0;
     }
     to {
-        width: 80%; /* Adjusted */
+        width: 57%; /* Adjusted */
     }
 }
 
@@ -345,7 +345,7 @@ section {
         width: 0;
     }
     to {
-        width: 50%; /* Adjusted */
+        width: 63%; /* Adjusted */
     }
 }
 
@@ -362,7 +362,7 @@ section {
         width: 0;
     }
     to {
-        width: 75%; /* Adjusted */
+        width: 68%; /* Adjusted */
     }
 }
 .Technical-bars .bar .progress-line.html5 span {
@@ -377,7 +377,7 @@ section {
         width: 0;
     }
     to {
-        width: 68%; /* Adjusted */
+        width: 64%; /* Adjusted */
     }
 }
 .Technical-bars .bar .progress-line.html6 span {
@@ -393,6 +393,21 @@ section {
     }
     to {
         width: 80%; /* Adjusted */
+    }
+}
+.Technical-bars .bar .progress-line.html7 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate3 2s forwards; /* Adjusted */
+}
+@keyframes animate7 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%; /* Adjusted */
     }
 }
 
@@ -446,7 +461,7 @@ section {
 
 .main-text{
     padding-top:80px;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 .main-text h2{
     font-size: 60px;
